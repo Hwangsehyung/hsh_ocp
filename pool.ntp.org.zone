@@ -1,0 +1,15 @@
+$TTL 1D
+@       IN SOA  pool.ntp.org.zone. root.(
+                                        0       ; serial
+                                        3H      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+
+        IN      NS      ns.pool.ntp.org.
+        IN      A       172.30.81.4
+
+ns      IN      A       172.30.81.4
+
+;ntp
+*.rhel  IN      A       172.30.81.4

@@ -49,10 +49,17 @@ zone "0.in-addr.arpa" IN {
 zone "ocp.hsh" IN {
     type master;
     file "ocp.hsh.zone"; # zone file path
+    allow-update { none; };
 };
 
 zone "81.30.172.in-addr.arpa" IN {
     type master;
     file "ocp.hsh.reverse";  # 172.30.81.0/24 subnet
+    allow-update { none; };
 };
 
+zone "pool.ntp.org" IN {
+        type master;
+        file "/var/named/pool.ntp.org.zone";
+        allow-update { none; };
+};

@@ -1,5 +1,5 @@
 $TTL    604800
-@       IN      SOA     hsh_bastion.ocp.hsh. root. (
+@       IN      SOA     hsh-bastion.ocp.hsh. root. (
                   0     ; Serial
              604800     ; Refresh
               86400     ; Retry
@@ -7,20 +7,20 @@ $TTL    604800
              604800     ; Minimum
 )
 
-       IN    NS     hsh_bastion.
+       IN    NS     hsh-bastion.
 
-4      IN    PTR    hsh_bastion.
+4      IN    PTR    hsh-bastion.
 4      IN    PTR    api.lab.
 4      IN    PTR    api-int.
 ;
-5      IN    PTR    hsh_bootstrap.
+6      IN    PTR    hsh-bootstrap.
 ;
-7      IN    PTR    hsh_master01.
-8      IN    PTR    hsh_master02.
-9      IN    PTR    hsh_master03.
+7      IN    PTR    hsh-master01.
+8      IN    PTR    hsh-master02.
+9      IN    PTR    hsh-master03.
 ;
-10     IN    PTR    hsh_infra01.
-11     IN    PTR    hsh_infra02.
+10     IN    PTR    hsh-infra01.
+11     IN    PTR    hsh-infra02.
 ;
-12     IN    PTR    hsh_worker01.
-13     IN    PTR    hsh_worker02.
+12     IN    PTR    hsh-worker01.
+13     IN    PTR    hsh-worker02.

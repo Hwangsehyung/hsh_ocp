@@ -46,12 +46,12 @@ zone "0.in-addr.arpa" IN {
 
 # Include ocp zones
 
-zone "ocp.hsh" {
+zone "ocp.hsh" IN {
     type master;
     file "ocp.hsh.zone"; # zone file path
 };
 
-zone "81.30.172.in-addr.arpa" {
+zone "81.30.172.in-addr.arpa" IN {
     type master;
     file "ocp.hsh.reverse";  # 172.30.81.0/24 subnet
 };

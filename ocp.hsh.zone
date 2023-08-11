@@ -1,5 +1,5 @@
 $TTL 1D
-@       IN SOA  hsh_bastion.ocp.hsh.	root. (
+@       IN SOA  hsh-bastion.ocp.hsh.	root. (
                                         0       ; serial
                                         1D      ; refresh
                                         1H      ; retry
@@ -7,17 +7,17 @@ $TTL 1D
                                         3H )    ; minimum
         IN      NS      hsh_bastion
 
-hsh_bastion	IN	A	172.30.81.4
+hsh-bastion	IN	A	172.30.81.4
 
 ; OCP Cluster
-hsh_bootstrap	IN	A	172.30.81.6
-hsh_master01	IN	A	172.30.81.7
-hsh_master02	IN	A 	172.30.81.8
-hsh_master03	IN	A	172.30.81.9
-hsh_infra01	IN	A	172.30.81.10
-hsh_infra02	IN	A	172.30.81.11
-hsh_worker01	IN	A	172.30.81.12
-hsh_worker02	IN	A	172.30.81.13
+hsh-bootstrap	IN	A	172.30.81.6
+hsh-master01	IN	A	172.30.81.7
+hsh-master02	IN	A 	172.30.81.8
+hsh-master03	IN	A	172.30.81.9
+hsh-infra01	IN	A	172.30.81.10
+hsh-infra02	IN	A	172.30.81.11
+hsh-worker01	IN	A	172.30.81.12
+hsh-worker02	IN	A	172.30.81.13
 
 api		IN    A    172.30.81.4 ; external LB interface
 api-int  	IN    A    172.30.81.4 ; internal LB ingterface

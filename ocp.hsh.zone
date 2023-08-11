@@ -5,7 +5,7 @@ $TTL 1D
                                         1H      ; retry
                                         1W      ; expire
                                         3H )    ; minimum
-        IN      NS      hsh_bastion
+        IN      NS      hsh-bastion
 
 hsh-bastion	IN	A	172.30.81.4
 

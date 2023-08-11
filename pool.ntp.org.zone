@@ -1,5 +1,5 @@
 $TTL 1D
-@       IN SOA  pool.ntp.org.zone. root.(
+@       IN SOA  pool.ntp.org. root.(
                                         0       ; serial
                                         3H      ; refresh
                                         1H      ; retry

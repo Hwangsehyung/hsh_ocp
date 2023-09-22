@@ -22,6 +22,7 @@ hsh-worker02	IN	A	172.30.81.13
 lb    IN    A    172.30.81.4
 api		IN    A    172.30.81.4 ; external LB interface
 api-int  	IN    A    172.30.81.4 ; internal LB ingterface
+apps      IN    A     172.30.81.4
 *.apps     	IN    A    172.30.81.4
 
 
